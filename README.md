@@ -23,23 +23,6 @@ This is a Python command-line application developed for an NLP tech startup that
    ```
 5. Follow the on-screen menu to select an analysis option
 
-## Functions
-
-| Function | Arguments | Returns | Description |
-|---|---|---|---|
-| `count_specific_word(text, search_word)` | `str, str` | `int` | Counts occurrences of a word (case-insensitive, whole-word match) |
-| `identify_most_common_word(text)` | `str` | `str \| None` | Returns the most frequently used word |
-| `calculate_average_word_length(text)` | `str` | `float` | Returns average character count per word |
-| `count_paragraphs(text)` | `str` | `int` | Counts paragraph blocks separated by empty lines |
-| `count_sentences(text)` | `str` | `int` | Counts sentences ending in `.` `!` or `?` |
-
-## Edge Cases Handled
-
-- `count_specific_word('', 'AI')` → `0`
-- `identify_most_common_word('')` → `None`
-- `calculate_average_word_length('')` → `0`
-- `count_paragraphs('')` → `1`
-- `count_sentences('')` → `1`
 
 ## Technologies Used
 - Python 3
